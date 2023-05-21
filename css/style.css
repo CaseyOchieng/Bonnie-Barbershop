@@ -23,7 +23,7 @@ body {
 
 }
 
-/* Table or Navbar */
+/* Navbar */
 li {
     list-style: none;
 }
@@ -64,6 +64,13 @@ header {
     display: flex;
     gap: 2rem;
 }
+
+.navbar .toggle_btn{
+    color: #ffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
 /* Underline Effect  Start*/
 .links {
     position: relative;
@@ -87,5 +94,6 @@ header {
     transform: scaleX(1);
   }
 /* Underline Effect End*/
+
 
 /* Navbar */
