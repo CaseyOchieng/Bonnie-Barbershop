@@ -1,0 +1,23 @@
+{
+    "cSpell.language": "en,en-GB,lorem",
+    "cSpell.enableFiletypes": [
+        "asl",
+        "asl-yaml",
+        "bat",
+        "bibtex",
+        "cachegrind",
+        "clojure",
+        "cmake",
+        "cuda-cpp",
+        "dart",
+        "db",
+        "diff",
+        "dockercompose",
+        "dockerfile",
+        "erb",
+        "gemfile",
+        "go.sum",
+        "jsx",
+        "properties"
+    ]
+}
