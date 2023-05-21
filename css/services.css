@@ -146,10 +146,6 @@ header {
 
 /* Responsive Design End*/
 
-
-/* Navbar btn End*/
-
-
 /* Underline Effect  Start*/
 .links {
     position: relative;
@@ -172,8 +168,5 @@ header {
     transform-origin: bottom left;
     transform: scaleX(1);
 }
-
 /* Underline Effect End*/
-
-
-/* Navbar */
+/* Navbar End*/
