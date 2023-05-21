@@ -73,7 +73,22 @@ header {
 }
 
 .action-btn {
-    background-color: purple;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+}
+.action-btn:hover{
+scale: 1.35;
+color: white;
+}
+
+.action-btn:active{
+    scale: 0.95;
     color: white;
 }
 /* Navbar btn End*/
