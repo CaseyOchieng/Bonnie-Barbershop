@@ -91,6 +91,16 @@ color: white;
     scale: 0.95;
     color: white;
 }
+/* Responsive Design Start*/
+@media screen and (max-width: 992px) {
+    .navbar .links, .navbar .action-btn{
+      display: none;
+    }
+  }
+  
+/* Responsive Design End*/
+
+
 /* Navbar btn End*/
 
 
