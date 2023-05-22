@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-image: url(../image/cool-background.svg);
+    backdrop-filter: brightness(0.8);
 
 }
 
@@ -174,6 +175,37 @@ header {
 }
 
 /* Underline Effect End*/
-
-
 /* Navbar */
+
+.hero{
+     height:100%;
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    overflow: hidden;
+    }
+
+section {
+    padding: 0 19%;
+}
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-text h1{
+   font-family: 'Permanent Marker', cursivez;
+   font-size: 90px;
+   color: white;
+   line-height: 1;
+   margin: 0 0 45px;
+   
+   
+   
+}
