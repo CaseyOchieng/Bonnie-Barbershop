@@ -207,4 +207,15 @@ section {
    margin: 0 0 45px;
 }
 
+.hero-text p{
+   font-size: 15px;
+   line-height: 1.9;
+   margin-bottom: 40px;
+}
 
+.hero-img img{
+    width:400px;
+    height:400px;
+    border-radius: 20px;
+    object-fit:cover;
+}
