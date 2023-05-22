@@ -219,3 +219,18 @@ section {
     border-radius: 20px;
     object-fit:cover;
 }
+
+.icons  {
+   position: absolute;
+   top: 50%;
+   padding: 0 9%;
+   transform: translateY(-50%);
+}
+
+.icons i {
+   display: block;
+   margin: 26px 0;
+   font-size: 24px;
+   color: white;
+   transition:all 0.5s ease;
+}
