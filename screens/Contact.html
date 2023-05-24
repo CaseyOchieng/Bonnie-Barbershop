@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="../css/contact1.css">
+    <link rel="stylesheet" href="../css/contact1.css">
     <link rel="stylesheet" href="../css/contact.css">
     <title>Bonnie Barbershop</title>
 </head>
@@ -42,19 +42,21 @@
             </div>
         </header>
         <!-- Navbar End -->
-
-
-
-        
-
-
+        <!-- start contact -->
+        <div class="container">
+            <form onSubmit="sendEmail(); return false;"> 
+            <h3>Contact Us</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="phone" placeholder="Phone Number" required>
+            <textarea id="message" rows="4" placeholder="How can we help you ?" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        </div>
+        <!--end contact -->
     </div>
-    <section>
-        <div class="containerInfo"></div>
-        <div class="containerForm"></div>
-
-    </section>
 </body>
 <script src="../js/toggle.js"></script>
-
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="../js/email.js"></script>
 </html>
