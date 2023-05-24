@@ -1,0 +1,17 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* background: violet; */
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    /* background: #fff;*/
+}
