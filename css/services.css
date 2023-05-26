@@ -7,11 +7,15 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
-    background-color: rgba(206, 243, 255, 0.582);
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url(../image/slanted-gradient.svg);
+    /* background-image: url(../image/slanted-gradient.svg); */
+    background-color: #2d2d31;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #c6c9fc, #2d2d31), repeating-radial-gradient(circle at center center, #c6c9fc, #c6c9fc, 34px, transparent 68px, transparent 34px);
+    background-blend-mode: multiply;
 
 }
 
