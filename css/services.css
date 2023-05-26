@@ -17,9 +17,9 @@ body {
 
 .background-body {
     height: 100vh;
-    opacity: 0.4;
-    background-color: black;
-    background-image: linear-gradient(62deg, #8ec5fc75 0%, #e0c3fc6c 100%);
+    /* opacity: 0.4; */
+    /* background-color: black; */
+    /* background-image: linear-gradient(62deg, #8ec5fc75 0%, #e0c3fc6c 100%); */
 
 }
 
