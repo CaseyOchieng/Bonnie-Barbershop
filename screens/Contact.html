@@ -17,47 +17,48 @@
 
 <body>
     <!-- <div class="background-body"> -->
-        <!-- Navbar start -->
-        <header>
-            <div class="navbar">
+    <!-- Navbar start -->
+    <header>
+        <div class="navbar">
 
-                <div class="logo">
-                    <a href="../index.html">Bonnie BarberShop</a>
-                </div>
-                <ul class="links">
-                    <li class="navitems"><a href="../index.html">Home</a></li>
-                    <li class="navitems"><a href="./Services.html">Services</a></li>
-                </ul>
-                <a href="./Services.html " class="action-btn">Get Started</a>
-                <div class="toggle_btn">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+            <div class="logo">
+                <a href="../index.html">Bonnie BarberShop</a>
             </div>
-            <div class="dropdown_menu">
+            <ul class="links">
                 <li class="navitems"><a href="../index.html">Home</a></li>
                 <li class="navitems"><a href="./Services.html">Services</a></li>
-                <li>
-                    <a href="./Services.html" class="action-btn">Get Started</a>
-                </li>
+            </ul>
+            <a href="./Services.html " class="action-btn">Get Started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
             </div>
-        </header>
-        <!-- Navbar End -->
-        <!-- start contact -->
-        <div class="container">
-            <form onSubmit="sendEmail(); return false;"> 
+        </div>
+        <div class="dropdown_menu">
+            <li class="navitems"><a href="../index.html">Home</a></li>
+            <li class="navitems"><a href="./Services.html">Services</a></li>
+            <li>
+                <a href="./Services.html" class="action-btn">Get Started</a>
+            </li>
+        </div>
+    </header>
+    <!-- Navbar End -->
+    <!-- start contact -->
+    <div class="container">
+        <form action="https://formspree.io/f/mgebbdeq" method="post">
             <h3>Book Now</h3>
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <input type="text" id="phone" placeholder="Phone Number" required>
-            <textarea id="message" rows="4" placeholder="How may we help you ?" required></textarea>
+            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+            <input type="email" id="email" name="Email" placeholder="Your Email" required>
+            <input type="tel" id="phone" name="Phone" placeholder="Phone Number" required>
+            <input type="datetime-local" id="date" name="Date" placeholder="Date" required>
+            <textarea id="message" rows="4" name="Message" placeholder="How may we help you ?" required></textarea>
             <button type="submit">Send</button>
         </form>
-        
-        </div>
-        <!--end contact -->
+    </div>
+    <!--end contact -->
     </div>
 </body>
 <script src="../js/toggle.js"></script>
 <script src=" https://smtpjs.com/v3/smtp.js"></script>
-<script src="../js/email.js"></script>
+<!-- <script src="../js/email.js"></script> -->
+
 </html>
