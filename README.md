@@ -66,11 +66,9 @@ At Bonnie Barbershop, we value accessibility and inclusivity. Our website is des
 We prioritize website performance to provide users with a fast and smooth browsing experience. Our development team has implemented efficient coding practices, optimized image sizes, and minimized loading times to ensure quick and responsive page loading. This enables visitors to access information swiftly and enjoy a seamless interaction with the website.
 
 ## Get in Touch 
-
-We encourage you to explore the Bonnie Barbershop website and discover the beautiful UI design and cool animations firsthand. Feel free to reach out to us through the provided contact information if you have any questions, feedback, or inquiries. We appreciate your interest and look forward to serving you at our barbershop!
 You can also contact us at [Bonnie's BarberShop](https://bonnie-barbershop.vercel.app/)
-
-Thank you for choosing Bonnie Barbershop!
+## Author:
+[Casey Ochieng](https://github.com/CaseyOchieng)
 
 
 
