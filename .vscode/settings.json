@@ -19,5 +19,8 @@
         "go.sum",
         "jsx",
         "properties"
+    ],
+    "cSpell.words": [
+        "elasticemail"
     ]
 }
