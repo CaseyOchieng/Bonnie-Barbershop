@@ -1,6 +1,6 @@
 # Bonnie Barbershop Website
 
-Welcome to the README for Bonnie Barbershop's website! This document provides an overview of the features, design, and functionality of our website, highlighting the beautiful UI and cool animations that enhance the user experience.
+ This document provides an overview of the features, design, and functionality of our website, highlighting the beautiful UI and cool animations that enhance the user experience.
 
 ## UI Design
 
