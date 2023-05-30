@@ -11,15 +11,21 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url(../image/rainbow-vortex.svg);
+    /* background-image: url(../image/rainbow-vortex.svg); */
+    background-color: #2d2d31;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #c6c9fc, #2d2d31), 
+  repeating-radial-gradient(circle at center center, #c6c9fc, #c6c9fc, 34px, transparent 68px, 
+  transparent 34px);
+    background-blend-mode: multiply;
 
 }
 
 .background-body {
     height: 100vh;
-    opacity: 0.4;
-    background-color: black;
-    background-image: linear-gradient(62deg, #8ec5fc75 0%, #e0c3fc6c 100%);
+    /* opacity: 0.4; */
+    /* background-color: black; */
+    /* background-image: linear-gradient(62deg, #8ec5fc75 0%, #e0c3fc6c 100%); */
 
 }
 

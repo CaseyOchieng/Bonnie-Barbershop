@@ -16,6 +16,12 @@ body {
     /* opacity: 1; */
     /* /* background: repeating-linear-gradient(45deg, #c6c9fc, #c6c9fc 17px, #2d2d31 17px, #2d2d31 85px); */ 
 
+    background-color: #2d2d31;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #c6c9fc, #2d2d31), 
+  repeating-radial-gradient(circle at center center, #c6c9fc, #c6c9fc, 34px, transparent 68px, 
+  transparent 34px);
+    background-blend-mode: multiply;
 }
 /* Navbar */
 li {
